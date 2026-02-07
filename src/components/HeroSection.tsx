@@ -51,7 +51,7 @@ const HeroSection = () => {
             transition={{ duration: 0.5, delay: 0.5 }}
           >
             <a
-              href="https://github.com/tungtobe/excel-translator-hub/releases/latest/download/Comtor.app.zip"
+              href="https://github.com/tungtobe/excel-translator-hub/releases/latest/download/Comtor.dmg"
               className="group flex items-center gap-3 rounded-xl bg-white/10 border border-white/20 px-7 py-4 text-primary-foreground backdrop-blur-sm hover:bg-white/20 transition-all"
               download
             >
