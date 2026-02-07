@@ -5,6 +5,7 @@ import appIcon from "@/assets/icon.png";
 
 const navLinks = [
   { label: "Tổng quan", href: "#overview" },
+  { label: "Cài đặt", href: "#install" },
   { label: "Hướng dẫn", href: "#guide" },
   { label: "FAQ", href: "#faq" },
 ];
