@@ -1,73 +1,126 @@
-# Welcome to your Lovable project
+# HƯỚNG DẪN CÀI ĐẶT ỨNG DỤNG COMTORちゃん (macOS & Windows)
 
-## Project info
+> **Lưu ý quan trọng**
+> Ứng dụng này **chưa được ký chứng chỉ bảo mật (code signing)**, vì vậy hệ điều hành macOS và Windows có thể hiển thị cảnh báo an toàn. Đây là hành vi **bình thường** đối với các ứng dụng nội bộ, ứng dụng thử nghiệm hoặc ứng dụng chưa phát hành chính thức.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## I. HƯỚNG DẪN CÀI ĐẶT TRÊN macOS (FILE DMG)
 
-There are several ways of editing your application.
+### 1. Tải file cài đặt
 
-**Use Lovable**
+* Tải file: `Comtor.dmg`
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+### 2. Mở file DMG
 
-**Use your preferred IDE**
+1. Double-click vào file `Comtor.dmg`
+2. Một cửa sổ cài đặt sẽ hiện ra
+3. Kéo biểu tượng **Comtor.app** vào thư mục **Applications**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 3. Cảnh báo bảo mật có thể gặp
 
-Follow these steps:
+Khi mở ứng dụng lần đầu từ thư mục **Applications**, macOS có thể hiển thị thông báo:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+> "Comtor.app cannot be opened because it is from an unidentified developer"
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Đây là cảnh báo mặc định do ứng dụng chưa được ký chứng chỉ bảo mật.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### 4. Cách cho phép mở ứng dụng (Khuyến nghị)
+
+#### Cách 1: Mở bằng chuột phải (đơn giản & an toàn nhất)
+
+1. Mở **Applications**
+2. Chuột phải vào **Comtor.app**
+3. Chọn **Open**
+4. Khi hộp thoại cảnh báo hiện ra → chọn **Open**
+
+➡️ Sau thao tác này, **Comtorちゃん** sẽ mở bình thường ở các lần sau.
+
+---
+
+#### Cách 2: Cho phép trong System Settings
+
+1. Mở **System Settings**
+2. Vào **Privacy & Security**
+3. Kéo xuống phần **Security**
+4. Tại thông báo chặn **Comtor.app** → bấm **Allow Anyway**
+5. Mở lại ứng dụng từ **Applications**
+
+---
+
+#### (Tuỳ chọn – dành cho người dùng kỹ thuật)
+
+Mở **Terminal** và chạy lệnh sau:
+
+```bash
+xattr -rd com.apple.quarantine /Applications/Comtor.app
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+#### Cách 2: Cho phép trong System Settings
 
-**Use GitHub Codespaces**
+1. Mở **System Settings**
+2. Vào **Privacy & Security**
+3. Kéo xuống phần **Security**
+4. Tại dòng chặn ứng dụng → bấm **Allow Anyway**
+5. Mở lại ứng dụng
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+#### (Tuỳ chọn nâng cao – dành cho user kỹ thuật)
 
-This project is built with:
+Mở Terminal và chạy:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+xattr -rd com.apple.quarantine Comtor.app
+```
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## II. HƯỚNG DẪN CÀI ĐẶT TRÊN WINDOWS
 
-## Can I connect a custom domain to my Lovable project?
+### 1. Tải file cài đặt
 
-Yes, you can!
+* Tải file: `Comtorちゃん.msi`
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### 2. Cảnh báo bảo mật có thể gặp
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Windows có thể hiển thị:
+
+> "Windows protected your PC"
+
+### 3. Cách cho phép cài đặt
+
+1. Click **More info**
+2. Click **Run anyway**
+3. Tiếp tục quá trình cài đặt như bình thường
+
+---
+
+### 4. Trường hợp bị chặn tải trên trình duyệt
+
+* Chrome / Edge có thể hiển thị cảnh báo
+* Chọn **Keep** hoặc **Keep anyway** để tiếp tục tải
+
+---
+
+## III. CÂU HỎI THƯỜNG GẶP (FAQ)
+
+### ❓ Ứng dụng có an toàn không?
+
+✔ Có. Ứng dụng được phát triển nội bộ và **không chứa mã độc**. Cảnh báo xuất hiện do ứng dụng chưa được ký chứng chỉ bảo mật.
+
+### ❓ Vì sao các ứng dụng khác không bị cảnh báo?
+
+✔ Các ứng dụng thương mại thường được ký và xác thực bởi Apple / Microsoft. Việc này có chi phí và thường được thực hiện khi phát hành chính thức.
+
+### ❓ Cảnh báo này có xuất hiện lại không?
+
+✔ Không. Sau khi cho phép chạy lần đầu, hệ điều hành sẽ ghi nhớ và không chặn lại.
