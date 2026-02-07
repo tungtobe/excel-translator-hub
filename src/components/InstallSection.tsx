@@ -71,7 +71,7 @@ const InstallSection = () => {
                 title="Tải file cài đặt"
               >
                 <p className="text-sm text-muted-foreground">
-                  Tải file: <code className="rounded bg-muted px-2 py-0.5 text-xs font-mono text-foreground">Comtorちゃん.dmg</code>
+                  Tải file: <code className="rounded bg-muted px-2 py-0.5 text-xs font-mono text-foreground">Comtor.dmg</code>
                 </p>
               </StepCard>
 
@@ -82,9 +82,9 @@ const InstallSection = () => {
                 title="Mở file DMG"
               >
                 <ol className="space-y-2">
-                  <StepItem>Double-click vào file <code className="rounded bg-muted px-2 py-0.5 text-xs font-mono text-foreground">Comtorちゃん.dmg</code></StepItem>
+                  <StepItem>Double-click vào file <code className="rounded bg-muted px-2 py-0.5 text-xs font-mono text-foreground">Comtor.dmg</code></StepItem>
                   <StepItem>Một cửa sổ cài đặt sẽ hiện ra</StepItem>
-                  <StepItem>Kéo biểu tượng <strong>Comtorちゃん.app</strong> vào thư mục <strong>Applications</strong></StepItem>
+                  <StepItem>Kéo biểu tượng <strong>Comtor.app</strong> vào thư mục <strong>Applications</strong></StepItem>
                 </ol>
               </StepCard>
 
@@ -95,7 +95,7 @@ const InstallSection = () => {
                 title="Cảnh báo bảo mật có thể gặp"
               >
                 <div className="rounded-lg border border-border bg-muted/30 p-4 text-sm text-muted-foreground italic">
-                  "Comtorちゃん.app cannot be opened because it is from an unidentified developer"
+                  "Comtor.app cannot be opened because it is from an unidentified developer"
                 </div>
                 <p className="mt-2 text-sm text-muted-foreground">
                   Đây là cảnh báo mặc định do ứng dụng chưa được ký chứng chỉ bảo mật.
@@ -117,7 +117,7 @@ const InstallSection = () => {
                     </h5>
                     <ol className="space-y-1.5 ml-7">
                       <StepItem>Mở <strong>Applications</strong></StepItem>
-                      <StepItem>Chuột phải vào <strong>Comtorちゃん.app</strong></StepItem>
+                      <StepItem>Chuột phải vào <strong>Comtor.app</strong></StepItem>
                       <StepItem>Chọn <strong>Open</strong></StepItem>
                       <StepItem>Khi hộp thoại cảnh báo hiện ra → chọn <strong>Open</strong></StepItem>
                     </ol>
@@ -154,7 +154,7 @@ const InstallSection = () => {
                     <p className="text-sm text-muted-foreground mb-2 ml-6">Mở Terminal và chạy lệnh:</p>
                     <div className="ml-6 rounded-lg bg-[hsl(220,20%,12%)] p-4 overflow-x-auto">
                       <code className="text-sm font-mono text-[hsl(140,60%,70%)]">
-                        xattr -rd com.apple.quarantine /Applications/Comtorちゃん.app
+                        xattr -rd com.apple.quarantine /Applications/Comtor.app
                       </code>
                     </div>
                   </div>
@@ -171,7 +171,7 @@ const InstallSection = () => {
                 title="Tải file cài đặt"
               >
                 <p className="text-sm text-muted-foreground">
-                  Tải file: <code className="rounded bg-muted px-2 py-0.5 text-xs font-mono text-foreground">Comtorちゃん.msi</code>
+                  Tải file: <code className="rounded bg-muted px-2 py-0.5 text-xs font-mono text-foreground">Comtor.msi</code>
                 </p>
               </StepCard>
 
