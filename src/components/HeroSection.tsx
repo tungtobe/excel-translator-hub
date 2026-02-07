@@ -51,8 +51,9 @@ const HeroSection = () => {
             transition={{ duration: 0.5, delay: 0.5 }}
           >
             <a
-              href="#"
+              href="https://github.com/tungtobe/excel-translator-hub/releases/latest/download/Comtor.app.zip"
               className="group flex items-center gap-3 rounded-xl bg-white/10 border border-white/20 px-7 py-4 text-primary-foreground backdrop-blur-sm hover:bg-white/20 transition-all"
+              download
             >
               <Apple className="h-6 w-6" />
               <div className="text-left">
@@ -62,8 +63,9 @@ const HeroSection = () => {
             </a>
 
             <a
-              href="#"
+              href="https://github.com/tungtobe/excel-translator-hub/releases/latest/download/Comtor_x64_en-US.msi.zip"
               className="group flex items-center gap-3 rounded-xl bg-white/10 border border-white/20 px-7 py-4 text-primary-foreground backdrop-blur-sm hover:bg-white/20 transition-all"
+              download
             >
               <Monitor className="h-6 w-6" />
               <div className="text-left">
