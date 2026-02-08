@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Apple, Monitor } from "lucide-react";
+import { Apple, Monitor, FileText } from "lucide-react";
 import appIcon from "@/assets/icon.png";
 
 const HeroSection = () => {
@@ -74,6 +74,19 @@ const HeroSection = () => {
               </div>
             </a>
           </motion.div>
+
+          {/* Document download */}
+          <motion.a
+            href="/docs/system-description.pdf"
+            download
+            className="mt-2 flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors underline underline-offset-4 decoration-white/30 hover:decoration-white/60"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.7 }}
+          >
+            <FileText className="h-4 w-4" />
+            Tải tài liệu mô tả hệ thống (PDF)
+          </motion.a>
 
           <p className="mt-2 text-sm text-white/50">
             App miễn phí sử dụng • AI credit tự trả
