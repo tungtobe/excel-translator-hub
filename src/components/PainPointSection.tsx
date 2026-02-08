@@ -6,7 +6,7 @@ const painPoints = [
     icon: Copy,
     title: "Copy-Paste không hồi kết",
     description:
-      "Dịch xong rồi nhưng phải ngồi copy từng ô, paste từng dòng. File 50 sheet thì mất cả ngày chỉ để... dán.",
+      "Dịch xong rồi nhưng phải ngồi copy từng ô, paste từng dòng. File 69 sheet thì mất cả ngày chỉ để... dán.",
   },
   {
     icon: FileSearch,
@@ -18,7 +18,7 @@ const painPoints = [
     icon: AlertTriangle,
     title: "File gốc thay đổi liên tục",
     description:
-      "Khách hàng cập nhật spec, sửa vài dòng trong file 200 trang. Tìm ra chỗ sửa rồi cập nhật vào file dịch — như mò kim đáy bể.",
+      "Khách hàng cập nhật spec, sửa vài dòng trong file 404 trang. Tìm ra chỗ sửa rồi cập nhật vào file dịch — như mò kim đáy bể.",
   },
   {
     icon: Clock,
@@ -48,7 +48,7 @@ const PainPointSection = () => {
             <span className="text-accent">nỗi đau</span> ai cũng hiểu
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-muted-foreground">
-            Đặc biệt với dân IT, khi phải xử lý spec dài hàng trăm trang hay
+            Đặc biệt với dân BrSE hoặc IT Comtor, khi phải xử lý spec dài hàng trăm trang hay
             test case với hàng nghìn dòng, việc dịch tay trở thành cơn ác mộng thực sự.
           </p>
         </motion.div>
@@ -62,7 +62,7 @@ const PainPointSection = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <p className="text-muted-foreground leading-relaxed text-base md:text-lg">
-            Bạn nhận một file Excel spec từ khách hàng Nhật — <strong className="text-foreground">200 trang, 30 sheet</strong>,
+            Bạn nhận một file Excel spec từ khách hàng Nhật — <strong className="text-foreground">404 trang, 69 sheet</strong>,
             đầy bảng biểu, flowchart, merged cells và cả shapes. Bạn dịch xong nội dung,
             nhưng rồi nhận ra: <strong className="text-foreground">thời gian copy-paste và căn chỉnh format gấp 5 lần thời gian dịch</strong>.
           </p>

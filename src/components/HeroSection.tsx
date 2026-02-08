@@ -76,7 +76,7 @@ const HeroSection = () => {
           </motion.div>
 
           <p className="mt-2 text-sm text-white/50">
-            Phiên bản mới nhất • Miễn phí sử dụng
+            Phiên bản mới nhất • Miễn phí sử dụng • AI credit tự trả
           </p>
         </motion.div>
       </div>
