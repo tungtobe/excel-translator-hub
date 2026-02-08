@@ -5,19 +5,19 @@ import appIcon from "@/assets/icon.png";
 const funFacts = [
   {
     icon: Coffee,
-    text: "Được nuôi bằng cà phê đen và deadline",
+    text: "Vibe code bằng cà phê và rất nhiều AI credits",
   },
   {
     icon: Code,
-    text: "Bug thì sửa, feature thì... cũng sửa",
+    text: "App này không có Bug, tất cả là feature",
   },
   {
     icon: Languages,
-    text: "Nói tiếng Nhật với máy, tiếng Việt với người",
+    text: "Có AI rồi nhưng sếp bảo dù sao vẫn phải học tiếng Nhật",
   },
   {
     icon: Moon,
-    text: "Code lúc 2h sáng vì 'chỉ sửa 1 dòng thôi'",
+    text: "Vibe code dễ gây nghiện và mất ngủs",
   },
 ];
 
@@ -36,7 +36,7 @@ const AboutSection = () => {
             Giới thiệu
           </span>
           <h2 className="text-3xl font-bold text-foreground sm:text-4xl font-jp">
-            Ai đứng sau con bot này?
+            Ai rảnh tạo ra ứng dụng này?
           </h2>
         </motion.div>
 
@@ -67,20 +67,19 @@ const AboutSection = () => {
 
               <div className="text-center sm:text-left">
                 <h3 className="text-xl font-bold text-foreground font-jp mb-1">
-                  Một BrSE giấu tên
+                  Một BrSE/PM/PO giấu tên
                 </h3>
                 <p className="text-sm text-accent font-medium mb-3">
-                  aka "Người ghét copy-paste"
+                  aka "Tobe Tùng" aka "Tony Tùng"
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Từng là BrSE phải dịch spec <strong className="text-foreground">404 trang</strong> bằng
-                  tay. Sau 3 ngày copy-paste liên tục, tôi quyết định: <em>"Thà bỏ 1 tháng code tool
-                  còn hơn paste thêm 1 cell nữa."</em>
+                  Từng gặp cảnh việc thì ngập đầu mà cứ bị thúc a dịch cái spec <strong className="text-foreground"> 696 trang </strong>
+                  này cho em. Sau 3 ngày copy-paste liên tục, tôi quyết định: <em>"éo làm nữa."</em>
                 </p>
                 <p className="mt-3 text-muted-foreground leading-relaxed">
                   Thế là <strong className="text-foreground">Comtor ちゃん</strong> ra đời — không phải
                   vì đam mê công nghệ, mà vì{" "}
-                  <strong className="text-accent">lười đúng chỗ</strong>. 😤
+                  <strong className="text-accent">lười !</strong> 😤
                 </p>
               </div>
             </div>
@@ -119,9 +118,9 @@ const AboutSection = () => {
                     Triết lý phát triển
                   </h4>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    "Nếu bạn phải làm một việc lặp đi lặp lại hơn 3 lần — hãy viết code để nó tự làm.
+                    "Nếu bạn phải làm một việc lặp đi lặp lại hơn 3 lần — hãy vibe code để nó tự làm.
                     Nếu code không chạy — uống cà phê rồi sửa. Nếu vẫn không chạy —{" "}
-                    <strong className="text-foreground">đổ lỗi cho AI.</strong>" 🤖
+                    <strong className="text-foreground">quay lại làm bằng tay.</strong>"
                   </p>
                 </div>
               </div>
@@ -137,10 +136,7 @@ const AboutSection = () => {
             >
               <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
                 Made with <Heart className="h-4 w-4 text-accent fill-accent" /> và rất nhiều
-                <Coffee className="h-4 w-4 text-accent" /> tại Việt Nam 🇻🇳
-              </p>
-              <p className="mt-1 text-xs text-muted-foreground/60 italic">
-                P/S: Nếu app có bug, xin đừng báo lúc 2h sáng. Tôi đang... code. 🌙
+                <Coffee className="h-4 w-4 text-accent" /> và AI credits 🤖
               </p>
             </motion.div>
           </motion.div>
