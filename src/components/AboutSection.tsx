@@ -138,6 +138,9 @@ const AboutSection = () => {
                 Made with <Heart className="h-4 w-4 text-accent fill-accent" /> và rất nhiều
                 <Coffee className="h-4 w-4 text-accent" /> và AI credits 🤖
               </p>
+              <p className="mt-1 text-xs text-muted-foreground/60 italic">
+                Liên hệ <a href="mailto:[tonytung.work@gmail.com]">tonytung.work@gmail.com</a> để báo lỗi hoặc góp ý.
+              </p>
             </motion.div>
           </motion.div>
         </div>
