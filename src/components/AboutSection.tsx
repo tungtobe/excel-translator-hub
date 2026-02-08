@@ -17,7 +17,7 @@ const funFacts = [
   },
   {
     icon: Moon,
-    text: "Vibe code dễ gây nghiện và mất ngủs",
+    text: "Vibe code dễ gây nghiện và mất ngủ",
   },
 ];
 
