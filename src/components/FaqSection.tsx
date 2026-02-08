@@ -13,15 +13,15 @@ const faqs = [
   },
   {
     q: "Tôi có cần API Key để sử dụng không?",
-    a: "Có. Bạn có thể sử dụng API Key miễn phí từ Google (Gemini) để bắt đầu ngay lập tức. Ngoài ra, bạn cũng có thể dùng API Key trả phí từ OpenAI để có chất lượng dịch cao hơn.",
+    a: "Có. Bạn có thể sử dụng API Key miễn phí từ Google (Gemini) để bắt đầu ngay lập tức. Ngoài ra, bạn cũng có thể dùng API Key trả phí từ OpenAI để có chất lượng dịch cao hơn. Lấy key của bản thân ở https://aistudio.google.com/app/apikey",
   },
   {
     q: "Glossary hoạt động như thế nào?",
     a: "Glossary là bảng thuật ngữ riêng cho từng Project. Bạn thêm các cặp từ JP-VN, và AI sẽ ưu tiên sử dụng thuật ngữ của bạn khi dịch. Hỗ trợ Import/Export CSV để quản lý nhanh.",
   },
   {
-    q: "Nếu mất mạng giữa chừng thì sao?",
-    a: "Comtor ちゃん có cơ chế Checkpoint. Khi gặp lỗi, nhấn Retry — hệ thống sẽ tự động bỏ qua các Sheet đã dịch xong và tiếp tục từ vị trí bị gián đoạn.",
+    q: "Nếu mất mạng giữa chừng hoặc hết quota API giữa chừng thì sao?",
+    a: "Làm cốc nước, uống chén trà, rồi đợi một chút. Comtor ちゃん có cơ chế Checkpoint. Khi gặp lỗi, đợi chút rồi nhấn Retry — hệ thống sẽ tự động bỏ qua các Sheet đã dịch xong và tiếp tục từ vị trí bị gián đoạn.",
   },
   {
     q: "Smart Cache là gì? Khi nào nên tắt?",
@@ -38,6 +38,10 @@ const faqs = [
   {
     q: "Làm sao để dịch nhanh hơn với file lớn?",
     a: 'Sử dụng phương pháp "Dịch thử một Sheet" — dịch thử 1 sheet nhỏ trước, hoàn thiện Glossary rồi mới dịch file chính. Kết hợp Smart Cache để tránh dịch lại nội dung trùng lặp.',
+  },
+  {
+    q: "Nếu vẫn lỗi mà không biết vì sao thì phải làm sao?",
+    a: 'Thì sao ạ ???? thì phải chịu chứ sao! Hoặc là liên hệ với tôi qua email tonytung.work@gmail.com, rảnh thì tôi fix.',
   },
 ];
 

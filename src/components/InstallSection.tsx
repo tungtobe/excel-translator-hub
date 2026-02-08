@@ -37,7 +37,7 @@ const InstallSection = () => {
             <ShieldAlert className="h-5 w-5 text-accent" />
             <AlertTitle className="text-foreground font-semibold">Lưu ý quan trọng</AlertTitle>
             <AlertDescription className="text-muted-foreground">
-              Ứng dụng <strong>chưa được ký chứng chỉ bảo mật (code signing)</strong>, vì vậy hệ điều hành có thể hiển thị cảnh báo an toàn. Đây là hành vi <strong>bình thường</strong> đối với các ứng dụng nội bộ hoặc ứng dụng chưa phát hành chính thức.
+              Ứng dụng <strong>chưa được ký chứng chỉ bảo mật (code signing) vì nó TỐN TIỀN</strong>, vì vậy hệ điều hành có thể hiển thị cảnh báo an toàn. Đây là hành vi <strong>bình thường</strong> đối với các ứng dụng ứng dụng chưa phát hành chính thức.
             </AlertDescription>
           </Alert>
         </motion.div>
@@ -50,16 +50,17 @@ const InstallSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <Tabs defaultValue="macos" className="w-full">
+          <Tabs defaultValue="windows" className="w-full">
             <TabsList className="grid w-full grid-cols-2 h-12 bg-muted/50">
-              <TabsTrigger value="macos" className="flex items-center gap-2 text-sm font-semibold data-[state=active]:bg-card data-[state=active]:shadow-sm">
-                <Apple className="h-4 w-4" />
-                macOS
-              </TabsTrigger>
               <TabsTrigger value="windows" className="flex items-center gap-2 text-sm font-semibold data-[state=active]:bg-card data-[state=active]:shadow-sm">
                 <Monitor className="h-4 w-4" />
                 Windows
               </TabsTrigger>
+              <TabsTrigger value="macos" className="flex items-center gap-2 text-sm font-semibold data-[state=active]:bg-card data-[state=active]:shadow-sm">
+                <Apple className="h-4 w-4" />
+                macOS
+              </TabsTrigger>
+
             </TabsList>
 
             {/* macOS Tab */}

@@ -12,7 +12,7 @@ const Footer = () => {
             </span>
           </div>
           <p className="text-sm text-white/60 max-w-md">
-            Giải phóng sức lao động, nâng tầm chất lượng dịch thuật.
+            Giảm thời gian dịch Excel, dành thời gian cho những việc khó hơn.
             <br />
             Trợ lý AI dịch Excel Việt ↔ Nhật cho BrSE & Comtor.
           </p>
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
           <div className="mt-4 border-t border-white/10 pt-4 w-full">
             <p className="text-xs text-white/40">
-              © 2025 Comtor ちゃん. All rights reserved.
+              © 2026 Comtor ちゃん. All rights reserved.
             </p>
           </div>
         </div>
